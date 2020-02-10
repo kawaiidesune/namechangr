@@ -13,7 +13,7 @@ class UserTest extends TestCase
 {
     use DatabaseMigrations;
 
-    public function setUp() {
+    public function setUp(): void {
         parent::setUp();
 
         $this->user = factory(User::class)->create();

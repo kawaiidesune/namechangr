@@ -124,7 +124,7 @@ class AuthenticationTest extends TestCase
 
         $adminEmail = config('mail.email');
         if(filter_var($adminEmail, FILTER_VALIDATE_EMAIL) == true) {
-            Mail::assertSent(UserRegisteredEmail::class, function (UserRegisteredEmail $mail) use ($user) {
+            Mail::assertQueued(UserRegisteredEmail::class, function (UserRegisteredEmail $mail) use ($user) {
                 return $mail->user->id === $user->id;
             });
         } else {
