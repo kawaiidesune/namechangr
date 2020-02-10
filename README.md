@@ -19,7 +19,7 @@ development.  In production, NameChangr runs on two Heroku nodes.  It also uses 
 a memory cache.  It also makes use of other Heroku services to function, as well as Amazon S3, but nothing but php 
 and a database server are required for development.
 
-You can read about Laravel and the other awesome things it does for us [here](https://laravel.com/docs/5.4)
+You can read about Laravel and the other awesome things it does for us [here](https://laravel.com/docs/5.8)
 
 Installation
 ----------------------------------------------
