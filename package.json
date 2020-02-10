@@ -14,22 +14,22 @@
     "heroku-postbuild": "npm run production"
   },
   "devDependencies": {
-    "resolve-url-loader": "^2.3.2",
-    "sass": "^1.22.9",
-    "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "resolve-url-loader": "^2.3",
+    "sass": "^1.22",
+    "sass-loader": "^7.1",
+    "vue-template-compiler": "^2.6"
   },
   "dependencies": {
-    "axios": "^0.19.0",
-    "bootbox": "^4.4.0",
-    "bootstrap-sass": "^3.4.1",
-    "bootstrap-social": "^5.1.1",
-    "cross-env": "^3.2.3",
-    "jquery": "^3.4.1",
-    "jquery-steps": "^1.1.0",
-    "jquery-validation": "^1.19.0",
-    "laravel-mix": "^4.0.15",
-    "raphael": "^2.2.8",
-    "underscore": "^1.9.1"
+    "axios": "^0.19",
+    "bootbox": "^4.4",
+    "bootstrap-sass": "^3.4",
+    "bootstrap-social": "^5.1",
+    "cross-env": "^3.2",
+    "jquery": "^3.4",
+    "jquery-steps": "^1.1",
+    "jquery-validation": "^1.19",
+    "laravel-mix": "^4.0",
+    "raphael": "^2.2",
+    "underscore": "^1.9"
   }
 }
